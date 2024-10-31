@@ -8,10 +8,10 @@ public class Task03Main {
         System.out.println("Number 1: " + num1);
         System.out.println("Number 2: " + num2);
 
-        ComplexNumber sum = num1.Sum(num2);
+        ComplexNumber sum = num1.sum(num2);
         System.out.println("Sum: " + sum);
 
-        ComplexNumber product = num1.Product(num2);
+        ComplexNumber product = num1.product(num2);
         System.out.println("Product: " + product);
     }
 }

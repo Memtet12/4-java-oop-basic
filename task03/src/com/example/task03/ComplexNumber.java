@@ -19,13 +19,13 @@ public class ComplexNumber {
         this.imaginary = imaginary;
     }
 
-    public ComplexNumber Sum(ComplexNumber number) {
+    public ComplexNumber sum(ComplexNumber number) {
         double realSum = this.real + number.real;
         double imaginarySum = this.imaginary + number.imaginary;
         return new ComplexNumber(realSum, imaginarySum);
     }
 
-    public ComplexNumber Product(ComplexNumber number) {
+    public ComplexNumber product(ComplexNumber number) {
         double realProduct = this.real * number.real - this.imaginary * number.imaginary;
         double imaginaryProduct = this.real * number.imaginary + this.imaginary * number.real;
         return new ComplexNumber(realProduct, imaginaryProduct);
