@@ -1,7 +1,5 @@
 package com.example.task03;
 
-import java.awt.font.TextHitInfo;
-
 public class ComplexNumber {
     private final double real;
     private final double imaginary;
